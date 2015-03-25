@@ -1,7 +1,7 @@
 'use strict';
 var env = process.env;
 var home = env.HOME;
-var user = envLOGNAME || env.USER || env.LNAME || env.USERNAME;
+var user = env.LOGNAME || env.USER || env.LNAME || env.USERNAME;
 
 module.exports = function getUserSettingsDir(subDir) {
   var baseDir = null;

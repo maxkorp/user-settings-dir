@@ -2,6 +2,7 @@
 var env = process.env;
 var home = env.HOME;
 var user = env.LOGNAME || env.USER || env.LNAME || env.USERNAME;
+var path = require('path');
 
 module.exports = function getUserSettingsDir(subDir) {
   var baseDir = null;

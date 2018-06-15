@@ -1,4 +1,5 @@
-## user-settings-dir
+# user-settings-dir
+## moved to https://gitlab.com/maxkorp/user-settings-dir
 
 user-settings-dir is a small library to find the directory to persist application settings for a user. Many node-ish applications store settings properly on *nixy OSes using a dotfile (or dotdirectory) in the user's home folder. On Windows however, they tend to store files incorrectly, in the user's home directory, rather than in appdata. The officially sanctioned place in windows is in %APPDATA%,
 
